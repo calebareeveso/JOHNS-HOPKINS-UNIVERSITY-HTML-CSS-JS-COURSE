@@ -14,7 +14,7 @@ In this course, we will learn the basic tools that every web page coder needs to
  - Javascript
 
 ## Assignment
-[module2-solution](https://caleb-007.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module2-solution/)
+1) [module2-solution](https://caleb-007.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module2-solution/)
 
 ## Taught by
 [Yaakov Chaikin](https://www.coursera.org/instructor/yaakov-chaikin), Adjunct Professor, Graduate Computer Science
