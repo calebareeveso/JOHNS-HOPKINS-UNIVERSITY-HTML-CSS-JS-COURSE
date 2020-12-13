@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: monospace;
+    font-family: "Comic Sans MS", cursive, sans-serif;;
 }
 .h1 {
     text-align: center;
@@ -15,7 +15,7 @@ body {
 .div1, .div2, .div3 {
     border: 1px solid #000;
     background-color: #999999;
-    padding: 25px;
+    padding:40px 25px 25px 25px;
     margin: 15px;
     position: relative;
 }
