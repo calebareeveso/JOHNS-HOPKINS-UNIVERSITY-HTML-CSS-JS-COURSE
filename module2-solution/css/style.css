@@ -49,15 +49,12 @@ body {
 }
 
 .div1 {
-    display: grid;
     grid-area: div1;
 } 
 .div2 {
-    display: grid;
     grid-area: div2;
 } 
 .div3 {
-    display: grid;
     grid-area: div3;
 } 
 
@@ -67,14 +64,22 @@ body {
 
 @media (min-width:992px){
     #grids {
-        /* grid-template-columns: 1fr 1fr 1fr; */
-        grid-template-areas:  div2, div3;
+        grid-template-areas: 'div1 div2 div3';
     }
 }
 
 @media (min-width:768px) and (max-width:991px){
-    /* #grids {
-        grid-template-columns: 12fr 6fr;
-    } */
+    #grids {
+        grid-template-areas: 
+        'div1 div2 '
+        'div3 div3'
+        ;
+    }
+    
+}
+@media (max-width:767px){
+    #grids {
+        display: block;
+    }
     
 }
