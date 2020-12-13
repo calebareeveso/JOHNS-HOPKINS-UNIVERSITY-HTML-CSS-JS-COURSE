@@ -1,0 +1,64 @@
+/***Base styles***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+}
+.h1 {
+    text-align: center;
+    margin:30px 0;
+}
+
+.div1, .div2, .div3 {
+    border: 1px solid #000;
+    background-color: #999999;
+    padding: 25px;
+    margin: 15px;
+    position: relative;
+}
+
+.book {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 0 5px;
+}
+.car {
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 0 5px;
+}
+.house {
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    padding: 0 5px;
+}
+#grids {
+    display: grid;
+}
+
+.div1 {
+    display: grid;
+    grid-area: div1;
+} 
+.div2 {
+    display: grid;
+    grid-area: div2;
+} 
+.div3 {
+    display: grid;
+    grid-area: div3;
+} 
+
+/***Base styles ends***/
