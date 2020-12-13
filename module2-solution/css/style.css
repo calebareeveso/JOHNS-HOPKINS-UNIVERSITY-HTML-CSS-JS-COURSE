@@ -62,3 +62,19 @@ body {
 } 
 
 /***Base styles ends***/
+
+/* media quries  */
+
+@media (min-width:992px){
+    #grids {
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-areas:  div2, div3;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    /* #grids {
+        grid-template-columns: 12fr 6fr;
+    } */
+    
+}
