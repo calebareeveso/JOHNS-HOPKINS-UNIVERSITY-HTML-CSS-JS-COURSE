@@ -27,6 +27,7 @@ body {
     top: 0;
     color: #fff;
     padding: 0 5px;
+    border: 1px solid #000;
 }
 .car {
     background-color: red;
@@ -35,6 +36,7 @@ body {
     top: 0;
     color: #fff;
     padding: 0 5px;
+    border: 1px solid #000;
 }
 .house {
     background-color: blue;
@@ -43,6 +45,7 @@ body {
     top: 0;
     color: #fff;
     padding: 0 5px;
+    border: 1px solid #000;
 }
 #grids {
     display: grid;
