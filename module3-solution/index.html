@@ -11,28 +11,56 @@
 
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-lg navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Food, LLC</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item ml-auto">
+                    <a class="nav-link "  href="#book">Book</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#car">Car</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#house">House</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
     <h1 class="text-center py-4" id="OurMenu">Our Menu</h1>
-    <section class="row">
+    <section class="container-fluid">
+       <div class="row">
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="container con">
-                <h1 class="text-center subh1" >Book</h1>
+                <h3 class="text-center subh1" id="book">Book</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo unde aliquam, tenetur numquam dicta maxime. Consectetur, dolor accusamus, recusandae expedita harum, deleniti error ipsam tempora veritatis voluptates provident minus nesciunt doloribus nisi. Pariatur, expedita architecto deleniti quibusdam, harum in, corporis laudantium nesciunt molestiae quasi animi voluptatibus officia excepturi deserunt.</p>
-                <a href="#OurMenu"></a>
+               <p>(End of Book section) <a href="#OurMenu">Back to top</a></p>
             </div>
         </div>
         <div class="col-md-4 col-sm-6 col-xs-12">
             <div class="container con">
-                <h1 class="text-center subh1">car</h1>
+                <h3 class="text-center subh1" id="car">car</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo unde aliquam, tenetur numquam dicta maxime. Consectetur, dolor accusamus, recusandae expedita harum, deleniti error ipsam tempora veritatis voluptates provident minus nesciunt doloribus nisi. Pariatur, expedita architecto deleniti quibusdam, harum in, corporis laudantium nesciunt molestiae quasi animi voluptatibus officia excepturi deserunt.</p>
-                <a href="#OurMenu"></a>
+                <p>(End of Car section) <a href="#OurMenu">Back to top</a></p>
             </div>
         </div>
-        <div class="col-md-4 col-sm-6 col-xs-12">
-            <div class="container con">
-                <h1 class="text-center subh1">House</h1>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+            <div class=" con ">
+                <div class="container-fluid">
+                    <h3 class="text-center subh1" id="house">House</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nemo unde aliquam, tenetur numquam dicta maxime. Consectetur, dolor accusamus, recusandae expedita harum, deleniti error ipsam tempora veritatis voluptates provident minus nesciunt doloribus nisi. Pariatur, expedita architecto deleniti quibusdam, harum in, corporis laudantium nesciunt molestiae quasi animi voluptatibus officia excepturi deserunt.</p>
-                <a href="#OurMenu"></a>
+                <p>(End of House section) <a href="#OurMenu">Back to top</a></p>
+                </div>
             </div>
+       </div>
        </div>
     </section>
     <!-- Bootstrap CSS -->

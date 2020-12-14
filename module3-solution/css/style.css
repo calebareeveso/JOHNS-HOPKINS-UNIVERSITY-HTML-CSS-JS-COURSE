@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.con {
+    border: 1px solid #000;
+    background-color: #999999;
+    margin-bottom: 20px;
+}
+
+.navbar-dark2 {
+    background-color: #999999;
+}
+.navbar-dark2 a {
+   color: #fff;
+}
+.navbar-dark2 ul li {
+   color: #fff;
+}
