@@ -16,9 +16,9 @@ In this course, we will learn the basic tools that every web page coder needs to
  - Javascript
 
 ## Assignment
-1) [module2-solution](https://calebareeveso.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module2-solution/)
-2) [module3-solution](https://calebareeveso.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module3-solution/)
-
+1) [Module2-solution](https://calebareeveso.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module2-solution/)
+2) [Module3-solution](https://calebareeveso.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module3-solution/)
+4) [Module4-solution](https://calebareeveso.github.io/JOHNS-HOPKINS-UNIVERSITY-HTML-CSS-JS-COURSE/module4-solution/)
 ## Taught by
 [Yaakov Chaikin](https://www.coursera.org/instructor/yaakov-chaikin), Adjunct Professor, Graduate Computer Science
 Whiting School of Engineering
